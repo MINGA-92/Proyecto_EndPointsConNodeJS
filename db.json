@@ -1,0 +1,70 @@
+{
+    "Productos": [
+        {
+            "id": "1",
+            "name": "White paint",
+            "unit": "Gallon",
+            "quantity": 1
+        },
+        {
+            "id": "2",
+            "name": "Oil based primer",
+            "unit": "Gallon",
+            "quantity": 1
+        },
+        {
+            "id": "3",
+            "name": "Paint roller 1/2 inch nap",
+            "unit": null,
+            "quantity": 2
+        },
+        {
+            "id": "4",
+            "name": "Paint roller tray liner",
+            "unit": null,
+            "quantity": 10
+        },
+        {
+            "id": "5",
+            "name": "Quarter round molding",
+            "unit": null,
+            "quantity": 10
+        },
+        {
+            "id": "6",
+            "name": "Gap filler foam",
+            "unit": null,
+            "quantity": 2
+        },
+        {
+            "id": "7",
+            "name": "Faced R30 fiberglass inulation batt",
+            "unit": null,
+            "quantity": 1
+        },
+        {
+            "id": "8",
+            "name": "All purpose joint compound",
+            "unit": "Gallon",
+            "quantity": 1
+        },
+        {
+            "id": "9",
+            "name": "Ceiling light fixture",
+            "unit": null,
+            "quantity": 3
+        },
+        {
+            "id": "10",
+            "name": "Dimmer",
+            "unit": null,
+            "quantity": 3
+        },
+        {
+            "id": "11",
+            "name": "Dimmer faceplate",
+            "unit": null,
+            "quantity": 3
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+GET http://localhost:4000/Productos HTTP
+
+###
+POST http://localhost:4000/Productos HTTP
+Content-Type: application/json
+
+{
+    {
+        "name": "mI pRODUCTO nUEVO",
+        "unit": "Gallon",
+        "quantity": 11
+    }
+}
+
+###
+PUT http://localhost:4000/Productos HTTP
+Content-Type: application/json
+
+{
+    {
+        "id": "2",
+        "name": "Oil based",
+        "unit": "Gallon x2",
+        "quantity": 999
+    }
+}
+
