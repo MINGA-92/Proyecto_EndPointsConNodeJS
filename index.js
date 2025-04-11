@@ -3,6 +3,7 @@ import express from 'express';
 import bodyParser from 'body-parser'
 import fs from 'fs';
 
+const Conexion= require('./Controller/Conexion');
 const Constructor = express();
 Constructor.use(bodyParser.json());
 
@@ -16,6 +17,8 @@ Constructor.get('/', (req, res) => {
 Constructor.listen(4000, function(Peticion, Respuesta){
     console.log("Aplicacion Corriendo En http://localhost:4000         ヾ(⌐■_■)ノ♪ ");
 });
+
+
 
 //Leer Datos
 const LeerData = () => {
@@ -83,3 +86,4 @@ Constructor.delete("/Productos/:id", (req, res)  => {
     EscribirDatos(NewProducto);
     res.json({message: "Producto Eliminado Corretamente"});
 });
+
